@@ -10,6 +10,8 @@ const outputPath = path.join(OUTPUT_DIR, "team.html");
 
 const render = require("./lib/htmlRenderer");
 
+const allEmployees = [];
+
 console.log("Please build your team");
 
 
@@ -22,8 +24,8 @@ function managerInformation() {
       },
       {
         type: "input",
-        message: "What is your manager's ID",
-        name: "ID",
+        message: "What is your manager's id",
+        name: "id",
       },
       {
         type: "input",
@@ -59,7 +61,7 @@ function engineerInformation() {
     {
       type: "input",
       message: "What is your engineer's GitHub username",
-      name: "number",
+      name: "GitHub",
     },
   ]); 
 }; 
@@ -85,7 +87,7 @@ function internInformation() {
     {
       type: "input",
       message: "What is your intern's school",
-      name: "number",
+      name: "school",
     },
   ]); 
 }; 
