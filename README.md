@@ -1,1 +1,1 @@
-# Employee-generator
+This is a a Node.js command-line application that takes in information about employees on a software engineering team and generates an HTML webpage that displays summaries for each person. Users will use the command node app.js to be prompted with questions to answer to create the webpage. Here is a video walthrough on how to do so: https://watch.screencastify.com/v/h5YOnAaViajRzOWgwFTW
